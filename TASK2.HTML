@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Tracker</title>
+    <link rel="stylesheet" href="TASKK2.CSS">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Portfolio Tracker</h1>
+        <div class="input-section">
+            <input type="text" id="stockSymbol" placeholder="Stock Symbol (e.g., AAPL)">
+            <input type="number" id="purchasePrice" placeholder="Purchase Price" step="0.01">
+            <input type="number" id="purchaseYear" placeholder="Year of Purchase" min="1900" max="2100">
+            <button id="addStockBtn">Add Stock</button>
+        </div>
+        <div class="portfolio">
+            <h2>Your Portfolio</h2>
+            <ul id="portfolioList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
